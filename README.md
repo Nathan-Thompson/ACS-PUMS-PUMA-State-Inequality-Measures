@@ -12,13 +12,13 @@ InequalityMeasures.do will generate a portfolio of income inequality indices--At
 
 ASTaxsim.do prepares the income data for use with [NBER's TAXSIM tool](http://users.nber.org/~taxsim/) which calculates state and federal tax liabilities. With this you can calculate pre- and post-tax inequality measures at all geographies. . This uses a method by [Andrew Samwick](https://www.dartmouth.edu/~samwick/) in his paper [Donating the Voucher: An Alternative Tax Treatment of Private School Enrollment](https://ideas.repec.org/a/ucp/tpolec/doi10.1086-671246.html). 
 
-This choropleth shows the difference between pre/post tax inequality levels. Darker areas show a greater decrease in inequality due to federal & state tax liabilites. (Shapefiles availble [here](https://data2.nhgis.org/main)).
+This choropleth shows the difference between pre/post tax inequality levels. Darker areas show a greater decrease in inequality due to federal & state tax liabilities. (Shapefiles available [here](https://data2.nhgis.org/main)).
 
 ![](/img/prepost.jpg)
 
 ### Citation
 
-I did all of this for my Master's dissertation, a draft of which is included as a pdf. Please cite as " Thompson, N. B. (2015). Effects of Geographic Aggregation on Inequality Indices (Unpublished masters dissertation). London School of Economics and Poltitical Science, London.""
+I did all of this for my Master's dissertation, a draft of which is included as a pdf. Please cite as " Thompson, N. B. (2015). Effects of Geographic Aggregation on Inequality Indices (Unpublished masters dissertation). London School of Economics and Political Science, London.""
  
  
 
