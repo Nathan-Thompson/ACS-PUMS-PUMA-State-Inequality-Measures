@@ -4,11 +4,11 @@ Produces a portfolio of inequality indices--Gini, Theil, Atkinson--at the state 
 
 ### Using The Files
 
-Directory should be organized / Data / Years / .csv files.  
+Working directory should be organized / Data / Years / .csv files.  
 
 DataTools.do will prepare the raw .csv files for use with the ASTaxsim and InequalityMeasures scripts. 
 
-InequalityMeasures.do will generate a portfolio of income inequality indices--Atkinson, GE, Gini. It does this with individual, household, family and wage income, but can be adjusted for use with any of the ACS income measures. Requires the `ineqdeco` stata package. 
+InequalityMeasures.do will generate a portfolio of income inequality indices--Atkinson, GE, Gini. It does this with individual, household, family and wage income, but can be adjusted for use with any of the ACS income measures. Requires the `ineqdeco` Stata package. 
 
 ASTaxsim.do prepares the income data for use with [NBER's TAXSIM tool](http://users.nber.org/~taxsim/) which calculates state and federal tax liabilities. With this you can calculate pre- and post-tax inequality measures at all geographies. . This uses a method by [Andrew Samwick](https://www.dartmouth.edu/~samwick/) in his paper [Donating the Voucher: An Alternative Tax Treatment of Private School Enrollment](https://ideas.repec.org/a/ucp/tpolec/doi10.1086-671246.html). 
 
